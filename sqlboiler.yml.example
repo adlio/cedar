@@ -1,0 +1,7 @@
+blacklist:
+  - goose_db_version
+postgres:
+  dbname: cedar_development
+  host: /var/run/postgresql
+  user: username
+  sslmode: disable
